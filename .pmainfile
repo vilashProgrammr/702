@@ -1,1 +1,3 @@
-	"terminalcommand": "cd /home/project/$PROJECTDIR && wget -q -O - https://s3.amazonaws.com/angularnodemodules/$PROJECTDIR.tar > op.tar && tar -xvf op.tar > /dev/null && rm op.tar && npm start"
+{"mainfile": "src/index.js",
+"terminalcommand": "cd /home/project/$PROJECTDIR && wget -q -O - https://s3.amazonaws.com/angularnodemodules/$PROJECTDIR.tar > op.tar && tar -xvf op.tar > /dev/null && rm op.tar && npm start"
+}
